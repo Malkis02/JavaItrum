@@ -1,9 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        MyStringBuilder msb = new MyStringBuilder("Hell");
-
-        Memory mem = new Memory(msb);
-
+        MyStringBuilder msb = new MyStringBuilder("Hell",new MyStringBuilder());
+        
         msb.getString();
 
         System.out.println("append:o");
@@ -12,7 +10,7 @@ public class Main {
         msb.getString();
 
         System.out.println("Save");
-        mem.backup();
+        msb.backup();
 
         System.out.println("append: World ");
         msb.append(" World");
@@ -20,7 +18,7 @@ public class Main {
         msb.getString();
 
         System.out.println("restore in Memory");
-        mem.undo();
+        msb.undo();
 
         msb.getString();
     }
