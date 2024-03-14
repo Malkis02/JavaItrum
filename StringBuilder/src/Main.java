@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         MyStringBuilder msb = new MyStringBuilder("Hell",new MyStringBuilder());
-        
+
         msb.getString();
 
         System.out.println("append:o");
