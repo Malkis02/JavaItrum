@@ -1,4 +1,7 @@
+import java.util.Objects;
+
 class Order {
+
     private String product;
     private double cost;
 
@@ -13,5 +16,26 @@ class Order {
 
     public double getCost() {
         return cost;
+    }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "product='" + product + '\'' +
+                ", cost=" + cost +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Order order = (Order) o;
+        return Objects.equals(product, order.product);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(product);
     }
 }

@@ -11,12 +11,25 @@ public class Main {
                 new Order("Smartphone", 900.0),
                 new Order("PC",2000.0)
         );
-                orders.stream()
-                        .collect(Collectors.groupingBy(Order::getProduct, Collectors.summingDouble(Order::getCost)))
-                        .entrySet()
-                        .stream()
-                        .sorted(Map.Entry.<String, Double>comparingByValue().reversed())
-                        .limit(3)
-                        .forEach(System.out::println);
+                Map<String,Double> groupingOrders =  orders.stream()
+                        .collect(Collectors.groupingBy(Order::getProduct, Collectors.summingDouble(Order::getCost)));
+        System.out.println(groupingOrders);
+
+        groupingOrders.entrySet()
+                .stream()
+                .sorted(Map.Entry.<String, Double>comparingByValue().reversed())
+                .forEach(System.out::println);
+
+        List<Order> sortedDesc = orders.stream()
+                .sorted(Comparator.comparing(Order::getCost).reversed())
+                .distinct()
+                .limit(3)
+                .toList();
+        sortedDesc.forEach(System.out::println);
+
+        groupingOrders.entrySet().stream()
+                .sorted(Map.Entry.<String, Double>comparingByValue().reversed())
+                .limit(3)
+                .forEach(System.out::println);
     }
 }
