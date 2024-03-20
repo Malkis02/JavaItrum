@@ -6,6 +6,7 @@ public class ConcurrentBank{
 
     private Map<Long,BankAccount> listAccount = new HashMap<>();
 
+
     private long customIdCounter = 0;
 
     public synchronized void nextId() {
@@ -20,21 +21,25 @@ public class ConcurrentBank{
     }
 
 
-    public synchronized void transfer(BankAccount acc1,BankAccount acc2,int amount){
-        if(acc1.getBalance() - amount <= 0){
-            System.out.println("Недостаточно средств");
-        }else {
-            acc1.setBalance(acc1.getBalance() - amount);
-            acc2.setBalance(acc2.getBalance() + amount);
+    public synchronized void transfer(BankAccount acc1,BankAccount acc2,int amount) {
+        try {
+            acc1.getLock().lockInterruptibly();
+            try {
+                if (acc1.getBalance() - amount <= 0) {
+                    System.out.println("Недостаточно средств");
+                } else {
+                    acc1.setBalance(acc1.getBalance() - amount);
+                    acc2.setBalance(acc2.getBalance() + amount);
+                }
+            } finally {
+                acc1.getLock().unlock();
+            }
+        }catch (InterruptedException e){
+            System.err.println("Interrupted wait");
         }
     }
 
     public synchronized Optional<Double> getTotalBalance(){
         return listAccount.values().parallelStream().map(BankAccount::getBalance).reduce(Double::sum);
     }
-
-//    @Override
-//    public void run() {
-//        Thread.yield();
-//    }
 }

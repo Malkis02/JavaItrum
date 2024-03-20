@@ -24,16 +24,22 @@ public class Main {
             }
         });
 
-        transferThread1.start();
-        System.out.println(account1.getBalance());
-        System.out.println(account2.getBalance());
+        Thread transferThread3 = new Thread(() -> {
+            account1.deposit(135);
+            try{
+                Thread.sleep(200);
+            } catch (InterruptedException e){
+                Thread.currentThread().interrupt();
+            }
+        });
 
+        transferThread1.start();
         transferThread2.start();
-        System.out.println(account1.getBalance());
-        System.out.println(account2.getBalance());
+        transferThread3.start();
         try {
             transferThread1.join();
             transferThread2.join();
+            transferThread3.join();
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
             e.printStackTrace();
