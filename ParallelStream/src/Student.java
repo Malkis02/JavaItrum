@@ -12,8 +12,4 @@ class Student {
     public Map<String, Integer> getGrades() {
         return grades;
     }
-
-    public String getName() {
-        return name;
-    }
 }
