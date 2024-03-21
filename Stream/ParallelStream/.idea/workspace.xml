@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1062398e-68a2-4ced-afdb-8544539f7f5b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../BlocingQueue/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BlocingQueue/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BlocingQueue/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BlocingQueue/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BlocingQueue/BlocingQueue.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BlocingQueue/out/production/BlocingQueue/BlockingQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BlocingQueue/out/production/BlocingQueue/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BlocingQueue/src/BlockingQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BlocingQueue/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionCount/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionCount/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionCount/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionCount/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionCount/CollectionCount.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionCount/out/production/CollectionCount/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionCount/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionsFilter/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionsFilter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionsFilter/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionsFilter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionsFilter/JavaItrum.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionsFilter/out/production/JavaItrum/Filter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionsFilter/out/production/JavaItrum/FilterImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionsFilter/out/production/JavaItrum/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionsFilter/src/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionsFilter/src/FilterImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CollectionsFilter/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrencySynchronized/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrencySynchronized/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrencySynchronized/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrencySynchronized/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrencySynchronized/ConcurrencySynchronized.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrencySynchronized/src/ComplexTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrencySynchronized/src/ComplexTaskExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrencySynchronized/src/TestComplexTaskExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent/Concurrent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent/out/production/Concurrent/DeadlockExample$Resource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent/out/production/Concurrent/DeadlockExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent/out/production/Concurrent/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent/src/DeadlockExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrentBank/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrentBank/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrentBank/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrentBank/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrentBank/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrentBank/ConcurrentBank.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrentBank/out/production/ConcurrentBank/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrentBank/out/production/ConcurrentBank/ConcurrentBank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrentBank/out/production/ConcurrentBank/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrentBank/src/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrentBank/src/ConcurrentBank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConcurrentBank/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParallelStream/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParallelStream/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParallelStream/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParallelStream/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParallelStream/StreamParallel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParallelStream/out/production/StreamParallel/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParallelStream/out/production/StreamParallel/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParallelStream/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ParallelStream/src/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamFork/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamFork/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamFork/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamFork/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamFork/StreamFork.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamFork/out/production/StreamFork/FactorialTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamFork/out/production/StreamFork/ForkJoinPoolExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamFork/src/FactorialTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamFork/src/ForkJoinPoolExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamGenerator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamGenerator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamGenerator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamGenerator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamGenerator/StreamGenerator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamGenerator/out/production/StreamGenerator/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamGenerator/out/production/StreamGenerator/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamGenerator/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StreamGenerator/src/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StringBuilder/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StringBuilder/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StringBuilder/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StringBuilder/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StringBuilder/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StringBuilder/out/production/untitled/IMemento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StringBuilder/out/production/untitled/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StringBuilder/out/production/untitled/Memory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StringBuilder/out/production/untitled/MyStringBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StringBuilder/out/production/untitled/StringBuilderMemento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StringBuilder/src/IMemento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StringBuilder/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StringBuilder/src/MyStringBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StringBuilder/src/StringBuilderMemento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../StringBuilder/untitled.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2dipy4HTCFftYT6mn2KsMc3NAAS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/dev/JavaItrum/Stream/StreamTask2"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="StreamParallel" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1062398e-68a2-4ced-afdb-8544539f7f5b" name="Changes" comment="" />
+      <created>1710501004822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710501004822</updated>
+      <workItem from="1710501005913" duration="263000" />
+      <workItem from="1710501299226" duration="1730000" />
+      <workItem from="1710571943345" duration="9643000" />
+      <workItem from="1710678660444" duration="1473000" />
+      <workItem from="1710698615000" duration="2190000" />
+      <workItem from="1710703771193" duration="283000" />
+      <workItem from="1710744117237" duration="1737000" />
+      <workItem from="1710750014211" duration="8969000" />
+      <workItem from="1710782642857" duration="5087000" />
+      <workItem from="1710832932916" duration="16000" />
+      <workItem from="1710835584733" duration="1253000" />
+      <workItem from="1710868771878" duration="36000" />
+      <workItem from="1710918963923" duration="597000" />
+      <workItem from="1711009877215" duration="224000" />
+      <workItem from="1711010145744" duration="110000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
