@@ -11,33 +11,33 @@ public class BankAccount {
     }
 
     public synchronized void deposit(double amount) {
-        try {
-            lock.lockInterruptibly();
             try {
-                balance += amount;
-            } finally {
-                lock.unlock();
+                lock.lockInterruptibly();
+                try {
+                    balance += amount;
+                } finally {
+                    lock.unlock();
+                }
+            } catch (InterruptedException e) {
+                System.err.println("Interrupted wait");
             }
-        } catch (InterruptedException e) {
-            System.err.println("Interrupted wait");
-        }
     }
 
     public synchronized void withdraw(double amount) {
-        try {
-            lock.lockInterruptibly();
             try {
-                if (balance - amount < 0) {
-                    System.out.println("There are insufficient funds in the account");
-                } else {
-                    balance -= amount;
+                lock.lockInterruptibly();
+                try {
+                    if (balance - amount < 0) {
+                        System.out.println("There are insufficient funds in the account");
+                    } else {
+                        balance -= amount;
+                    }
+                } finally {
+                    lock.unlock();
                 }
-            } finally {
-                lock.unlock();
+            } catch (InterruptedException e) {
+                System.err.println("Interrupted wait");
             }
-        } catch (InterruptedException e) {
-            System.err.println("Interrupted wait");
-        }
     }
 
     public synchronized double getBalance() {
