@@ -1,22 +1,17 @@
 package itrum.task2.controllers;
 
 import itrum.task2.exception.NotFoundException;
-import itrum.task2.model.Author;
 import itrum.task2.model.Book;
-import itrum.task2.services.AuthorService;
 import itrum.task2.services.BookService;
 import jakarta.validation.Valid;
-import jakarta.validation.constraints.Min;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/books")
@@ -30,12 +25,10 @@ public class Controller {
     }
 
     @GetMapping()
-    public ResponseEntity<Page<Book>> getAllBooks(@RequestParam(defaultValue = "10") @Min(1) Integer size,
-                                                  @RequestParam(defaultValue = "0") @Min(0) Integer from) {
-
-        return ResponseEntity.status(HttpStatus.OK).body(bookService.getAllBooks(PageRequest.of(from / size, size)));
+    public ResponseEntity<Page<Book>> getAllBooks(@RequestParam Pageable pageable) {
+        Page<Book> bookPage = bookService.getAllBooks(pageable);
+        return ResponseEntity.status(HttpStatus.OK).body(bookPage);
     }
-
 
     @GetMapping("/{bookId}")
     public ResponseEntity<?> getBookById(@PathVariable Long bookId) {
