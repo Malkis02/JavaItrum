@@ -58,7 +58,7 @@
             <artifactId>jjwt-impl</artifactId>
             <version>0.12.5</version>
             <scope>system</scope>
-            <systemPath>F:/dev/JavaItrum/SpringSecurity/task1/jjwt-impl-0.12.5.jar</systemPath>
+            <systemPath>F:/dev/JavaItrum/SpringSecurity/task1/target/jjwt-impl-0.12.5.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
