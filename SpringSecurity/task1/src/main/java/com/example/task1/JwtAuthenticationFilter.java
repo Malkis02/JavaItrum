@@ -21,8 +21,6 @@ import java.util.Arrays;
 
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
-
-
     private UserDetailsService userDetailsService;
 
     private JwtUtil jwtTokenUtil;

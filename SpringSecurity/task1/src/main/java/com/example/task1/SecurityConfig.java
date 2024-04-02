@@ -57,10 +57,11 @@ public class SecurityConfig {
         httpSecurity.csrf((csrf) -> csrf.disable())
                 .addFilterBefore(new JwtAuthenticationFilter(userDetailsService(),jwtTokenUtils, authenticationManager(httpSecurity.getSharedObject(AuthenticationConfiguration.class))), UsernamePasswordAuthenticationFilter.class)
                 .authenticationProvider(jwtAuthenticationProvider)
-                .authorizeHttpRequests(request ->
-                        request.requestMatchers("/users/**", "/token/**").permitAll()
-                                .anyRequest().authenticated());
-
+                .authorizeHttpRequests(request ->{
+                            request.requestMatchers("/token/generate", "/error").permitAll();
+                            request.anyRequest().authenticated();
+                        }
+                );
         return  httpSecurity.build();
     }
 }
